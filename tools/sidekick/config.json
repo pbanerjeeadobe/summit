@@ -1,8 +1,0 @@
-{
-    "cdn.prod.host":"ngc.vyshakv.in",
-    "cdn.prod.type":"cloudflare",
-    "cdn.prod.plan":"free",
-    "cdn.prod.zoneId":"64023b1538eb5b233f77179d74d6b45c",
-    "cdn.prod.apiToken":"oECd8DSVWWMIbg83Oio07HFq9vLmM9vqfWjd0CnD"
-
-}
