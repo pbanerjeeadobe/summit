@@ -16,7 +16,7 @@
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
+  --highlight-background-color: whitesmoke;
   --text-color: #000;
 
   /* fonts */
@@ -229,12 +229,12 @@ main img {
 }
 
 main .section {
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 }
 
@@ -249,3 +249,15 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+/* section metadata */
+main .section.background {
+  background-color: whitesmoke;
+  margin-top: 32px 0;
+}
+
+/* section metadata */
+main .section.beige {
+  background-color: beige
+}
+
