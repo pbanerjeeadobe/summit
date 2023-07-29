@@ -1,5 +1,5 @@
 .carousel {
-    background-color: var(--primary);
+    background-color:white
     display: block;
     overflow: hidden;
     touch-action: manipulation;
@@ -23,7 +23,7 @@
   }
   
   .carousel .text {
-    color: var(--white);
+    color: rgb(11, 6, 6);
     display: flex;
   }
   
@@ -47,21 +47,22 @@
   }
   
   .carousel h1 {
-    opacity: 0.7;
+    opacity: 1;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    font-size: var(--heading-font-size-xxs);
+    font-size: 48px;
     letter-spacing: 0;
-    font-weight: var(--font-weight-bold);
-    color: var(--white);
+    font-weight: 700;
+    line-height: 48px;
+    color:black;
   }
   
   .carousel h2 {
     margin-bottom: 1rem;
-    font-weight: var(--font-weight-small);
-    font-size: var(--heading-font-size-m);
+    font-weight: 300;
+    font-size: 48px;
     margin-top: 0;
-    color: var(--white);
+    color:black;
   }
   
   .carousel .image {
@@ -106,8 +107,9 @@
     width: 0.5rem;
     display: inline-flex;
     margin-right: 0.75rem;
-    background: #ffffff1f;
+    background: var(--link-color);
     border-radius: 50%;
+    opacity: 0.7;
   }
   
   .carousel .swiper-pagination-bullet:last-child {
@@ -115,7 +117,7 @@
   }
   
   .carousel .swiper-pagination-bullet.active {
-    background-color: var(--white);
+    background-color: black;
   }
   
   .carousel .control-container {
@@ -214,6 +216,7 @@
       transform: translateX(-50%);
       left: 50%;
       justify-content: unset;
+      
     }
   
     .carousel h2 {
@@ -236,5 +239,6 @@
   
     .carousel .control-container {
       width: 100%;
+      
     }
   }

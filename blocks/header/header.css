@@ -5,6 +5,11 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
   border-bottom: 1px solid var(--highlight-background-color);
+  background-image: url("/icons/Logo_Carvelo.svg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position-y:center;
+  background-image: 25px;
 }
 
 header nav {
@@ -147,11 +152,13 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+ 
 }
 
 header nav .nav-brand img {
   width: 128px;
   height: auto;
+
 }
 
 /* sections */
@@ -161,6 +168,8 @@ header nav .nav-sections {
   display: none;
   visibility: hidden;
   background-color: var(--overlay-color);
+  
+  
 }
 
 header nav[aria-expanded="true"] .nav-sections {
