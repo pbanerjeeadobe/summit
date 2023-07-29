@@ -1,6 +1,6 @@
 {
     "project": "Carvelo",
-    "host": "nmain--summit--pbanerjeeadobe.hlx.live",
+    "host": "main--summit--pbanerjeeadobe.hlx.live",
     "plugins": [
         {
             "id": "library",
