@@ -14,5 +14,5 @@ block.classList.add(`columns-${cols.length}-cols`);
     }
   });
 });
-}
+
 
