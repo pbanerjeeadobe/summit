@@ -1,7 +1,5 @@
 export default function decorate(block) {
     const queryString = window.location.search;
-    console.log(queryString);
-
     const content = block.querySelector('div'); 
 
     const bannercontent = document.createElement("div");
@@ -13,11 +11,9 @@ export default function decorate(block) {
     bannertextdiv.append(bannertext);
 
     const bannerpic = bannertext.querySelector('picture');
-    const bannerpicdiv = document.createElement("div");
-    bannerpicdiv.classList.add(`banner-pic`);
+    const bannerpicdiv = document.createElement('div');
+    bannerpicdiv.classList.add('banner-pic');
     bannerpicdiv.append(bannerpic);
-
-
 
     bannercontent.append(bannerpicdiv);
     bannercontent.append(bannertextdiv);
@@ -28,9 +24,8 @@ export default function decorate(block) {
     if (queryString) {
         const urlParams = new URLSearchParams(queryString);
 
-        console.log("Its preview time!");
         const cf = urlParams.get('cf')
-        console.log(cf);
+      
         let options = {};
         const aemauthorurl = 'https://author-p55117-e571178.adobeaemcloud.com';
         const aemurl = `/graphql/execute.json/securbank/OfferByPath;path=${cf};ts=${Math.random()*1000}`;
